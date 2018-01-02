@@ -1,6 +1,7 @@
 @startuml
 Dog -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
+cat-> Dog: Hello
 
 Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
